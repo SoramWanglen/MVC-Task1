@@ -9,6 +9,7 @@ namespace MyFirstMVC.Controllers
     public class PFolioController : Controller
     {
         // GET: PFolio
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
@@ -30,6 +31,15 @@ namespace MyFirstMVC.Controllers
             return View();
         }
         public ActionResult Hobby()
+        {
+            return View();
+        }
+       
+        public ActionResult Register()
+        {
+            return View();
+        }
+        public ActionResult BasicDetail()
         {
             return View();
         }
