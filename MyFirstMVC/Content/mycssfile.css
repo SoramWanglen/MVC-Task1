@@ -1,0 +1,44 @@
+﻿
+#skill-title{
+    background-color:orangered;
+}
+.skills{
+    background-color:sandybrown;
+    text-decoration:underline;
+    font-size:large;
+    
+   
+}
+.para{
+    background-color:aqua;
+    font-size:large;
+}
+.hobby{
+    background-color:yellowgreen;
+    font-size:large;
+
+}
+.exp{
+    background-color:lightpink;
+    font-size:large;
+    padding:20px
+}
+.button{
+    display:flex;
+    justify-content:space-around;
+    margin-top:60px;
+    padding:2px;
+    font-size:20px;
+   
+}
+.cbutton{
+    background-color:orange;
+   
+}
+.cbutton:hover{
+   background-color:coral;
+}
+
+
+
+
